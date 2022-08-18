@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="display.css">
+</head>
+
+<body style="font-size: 20px;">
+    <h1>CSS Display property</h1>
+    <p>The display property specifies the display behavior of an element.</p>
+    <p>Syntax:-<b>display: value;</b></p>
+    <table>
+        <tr>
+            <th>Display Value</th>
+            <th>Discription</th>
+        </tr>
+        <tr>
+            <td>inline</td>
+            <td>Displays an element as an inline element (like span).
+                    Any height and width properties will have no effect</td>
+        </tr>
+        <tr>
+            <td>block</td>
+            <td>Displays an element as a block element (like p). 
+            It starts on a new line, and takes up the whole width</td>
+        </tr>
+        <tr>
+            <td>flex</td>
+            <td>Displays an element as a block-level flex container</td>
+        </tr>
+        <tr>
+            <td>grid</td>
+            <td>Displays an element as a block-level grid container</td>
+        </tr>
+        <tr>
+            <td>inline-block</td>
+            <td>Displays an element as an inline-level block container.
+                 The element itself is formatted as an inline element, but you can apply height and width values</td>
+        </tr>
+        <tr>
+            <td>inline-flex</td>
+            <td>Displays an element as an inline-level flex container</td>
+        </tr>
+        <tr>
+            <td>inline-grid</td>
+            <td>Displays an element as an inline-level grid container</td>
+        </tr>
+        <tr>
+            <td>inline-table</td>
+            <td>The element is displayed as an inline-level table</td>
+        </tr>
+        <tr>
+            <td>list-item</td>
+            <td>Let the element behave like a li elemen</td>
+        </tr>
+        <tr>
+            <td>run-in</td>
+            <td>Displays an element as either block or inline, depending on context</td>
+        </tr>
+        <tr>
+            <td>table</td>
+            <td>Let the element behave like a table element</td>
+        </tr>
+        <tr>
+            <td>table-caption</td>
+            <td>Let the element behave like a caption element</td>
+        </tr>
+        <tr>
+            <td>table-coloumn-group</td>
+            <td>Let the element behave like a colgroup element</td>
+        </tr>
+        <tr>
+            <td>table-header-group</td>
+            <td>Let the element behave like a thead element</td>
+        </tr>
+        <tr>
+            <td>table-footer-group</td>
+            <td>Let the element behave like a tfoot element</td>
+        </tr>
+        <tr>
+            <td>table-row-group</td>
+            <td>Let the element behave like a tbody element</td>
+        </tr>
+        <tr>
+            <td>table-cell</td>
+            <td>Let the element behave like a td element</td>
+        </tr>
+        <tr>
+            <td>table-coloumn</td>
+            <td>Let the element behave like a col element</td>
+        </tr>
+        <tr>
+            <td>table-row</td>
+            <td>Let the element behave like a tr element</td>
+        </tr>
+        <tr>
+            <td>none</td>
+            <td>The element is completely removed</td>
+        </tr>
+        <!-- <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr> -->
+    </table>
+    <p class="a1">DISPLAY none</p>
+    <p class="a2">DISPLAY block</p>
+    <p class="a3">DISPLAY inline</p>
+    <p class="a4">DISPLAY inline-block</p>
+    <div class="b1">
+        <p>flex</p>
+        <p>HELLOO</p>
+        <p>HELLOO</p>
+        <p>HELLOO</p>
+    </div>
+    <div class="b2">
+        <p>grid</p>
+        <p>HELLOO</p>
+        <p>HELLOO</p> 
+        <p>HELLOO</p>
+    </div>
+    <!-- <div class="b3">
+        <p>HELLOO</p>
+        <p>HELLOO</p>
+        <p>HELLOO</p>
+        <p>HELLOO</p>
+    </div> -->
+    <h1>Contents</h1>
+    <div class="a">
+        The .a container will disappear, and making the child elements (.b)
+         children of the element the next level up in the DOM: <div class="b">display: contents:</div>Makes the container
+          disappear, making the child elements children of the element the next level up in the DOM.
+       </div>
+       <h1>Flex direction_row-reverse</h1>
+       <div id="main">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+       </div>
+       <h1>inherit</h1>
+       <div class="inherit">
+        <p>These two paragraphs generates inline boxes, and it results in</p>
+        <p>no distance between the two elements.</p>
+       </div>
+       <div class="inline">
+        <h1>Initial</h1>
+        <p>Sets this property to its default value.</p>
+      </div>
+      <div>    
+      <h3>run in</h3> 
+      <p >The point is to allow a header to run into text below it, without sacrificing semantics 
+        or running into the problems you might run into trying to force it with other layout techniques.</p></div> 
+        <div class="tble">
+            <div class="tr">
+            <div class="td">A</div>
+            <div class="td">B</div>
+            <div class="td">C</div>
+            </div>
+            <div class="tr">
+                <div class="td">A</div>
+                <div class="td">B</div>
+                <div class="td">C</div></div>
+        </div>
+</body>
+
+</html>
